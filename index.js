@@ -8,7 +8,7 @@ require('dotenv').config();
 
 const PORT = 3030;
 
-const todoRoutes = require("./routes/todoRoutes")
+const todoRoutes = require("./server/routes/todoRoutes")
 
 
 const app = express();
