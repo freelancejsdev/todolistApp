@@ -6,7 +6,7 @@ const path = require('path')
 const morgan = require('morgan')
 require('dotenv').config();
 
-const PORT = 3030;
+const PORT = 5000;
 
 const todoRoutes = require("./server/routes/todoRoutes")
 
